@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111110111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+  <layouts>
+    <layout name="npnxnanbsnfns10111110111" font="Lato" controllayout="npnxnanbsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="pxabnsnfns10111110111" font="Lato" controllayout="pxabnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="npxnabnsnfns10111110111" font="Lato" controllayout="npxnabnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="npnxnanbnsnfns10111110111" font="Lato" controllayout="npnxnanbnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="pxabnsnfns10111110110" font="Lato" controllayout="pxabnsnfns10111110110" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Digital Addiction" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="glossary" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="true" />
+          <option name="thumbnailDisplayName" value="Slide: Welcome" />
+          <option name="thumbnailUrl" value="story_content/5e2jMhaRRub.png" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111110111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111110111">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Times New Roman">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5l3zgfdGBaD" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5l3zgfdGBaD.5hvrshDL70A" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.6Z1REFRxnht" displaytext="Introduction Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.6ozFsr99NjD" displaytext="Big Idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.5xH5B8aHdU8" displaytext="Navigation Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.5aSHwDUICXy" displaytext="Instructor Information" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.5ioQ3p7sJtL" displaytext="Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.5gEzXDQJozG" displaytext="Needed Technology" expand="false" type="slide" />
+            <slidelink slideid="_player.5l3zgfdGBaD.5mMi1QKtE7N" displaytext="Assessment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FuJ6rvHRwU" displaytext="Triggering Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FuJ6rvHRwU.66m4w7V7mwm" displaytext="Triggering Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.5ZXSUgjfm7t" displaytext="Digital Addiction" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.69NfIzUfj6u" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.68VV67MqQuS" displaytext="Common Signs" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.5jEMj0OhHrY" displaytext="Digital Addiction" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.6ahlZOYTGET" displaytext="Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.5iaSI8mYNOM" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.5ccQpqS47Hj" displaytext="Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.6jpv0H2FFO7" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6FuJ6rvHRwU.5zhm7jJJWJk" displaytext="Assessment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5vNWQI0Il02" displaytext="Exploration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5vNWQI0Il02.6Mxw1lwLJbS" displaytext="Exploration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.6Tq8ekXYrsI" displaytext="Maladaptive Behaviors" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.6SVg3gZUSxh" displaytext="Electronic Policy" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.67V3RUwvdbv" displaytext="Assessment (Text Entry)" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.5rGUHetI8uu" displaytext="Policy Consequences" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.6VeD40ykokg" displaytext="Assessment (Drag and Drop)" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.5lGIEdK0Q3J" displaytext="DASC" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.6QgXVU47s2v" displaytext="Assessment (Pick One)" expand="false" type="slide" />
+            <slidelink slideid="_player.5vNWQI0Il02.5tQvf3LqWB6" displaytext="Assessment Debrief" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6I8e0HlzUTp" displaytext="Intergration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6I8e0HlzUTp.66SbaOZwYBc" displaytext="Integration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.611Q4Zc5N1D" displaytext="Case Study" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5ebHk93we21" displaytext="Case Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5fWRm5Jws9O" displaytext="Characters" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5XiTmwLfKbG" displaytext="Conversation #1" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5ZVUCl68wsR" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.6E6NLYXEZzn" displaytext="Conversation #2" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.6Z55lNCh7jN" displaytext="Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.6K4n1IhJQj1" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.6fQJUShjz6V" displaytext="Conversation #3" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5xrtfqEDxaI" displaytext="Assessment Debrief" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.6PBoU1obUoZ" displaytext="Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6I8e0HlzUTp.5VRD7M4cqrA" displaytext="Assessment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Pi0SJ2xNuf" displaytext="Resolution Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Pi0SJ2xNuf.5VaRLzgzXJq" displaytext="Resolution Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6odTawSHKBx" displaytext="Name Input" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6RvrgrkNRcC" displaytext="Quiz Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6kHuIpilt0B" displaytext="Quiz Expectations" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6bQVLztdXzH" displaytext="Quiz Criteria" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.65NhuakNPzL" displaytext="Question #1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.61z2fEgSxSs" displaytext="Question #2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.5vdftJAtkaS" displaytext="Question #3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6j8k1YMn9ap" displaytext="Question #4" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.5apwWYSe3Ak" displaytext="Question #5" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.5g15nQ1i4E8" displaytext="Book Recommendation" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.686kWqRUnPL" displaytext="Thank You" expand="false" type="slide" />
+            <slidelink slideid="_player.6Pi0SJ2xNuf.6a7CvOfUSG9" displaytext="Work Cited" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5l3zgfdGBaD.5hvrshDL70A" slidebank="false" type="slide">lessening digital addiction in elementary students by: maci mutzner </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.6Z1REFRxnht" slidebank="false" type="slide">introduction</slidetext>
+      <slidetext slideid="5l3zgfdGBaD.6ozFsr99NjD" slidebank="false" type="slide">big idea to provide information and helpful tips on how educators can prevent and lessen digital addiction in students. </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.5xH5B8aHdU8" slidebank="false" type="slide">navigation instructions click the arrow on the bottom right corner to navigate through the lesson.  </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.5aSHwDUICXy" slidebank="false" type="slide">instructor email if you need to reach me for any reason, my email is: mutzner.2@wright.edu </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.5ioQ3p7sJtL" slidebank="false" type="slide">assessment (slider) directions: drag the slider to the appropriate expression that you feel is best for the question below. question: how confident are you with any information you may previously know about digital addiction in elementary students?             </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.5mMi1QKtE7N" slidebank="false" type="slide">assessment (dial) directions: use the dial to choose which expression is most appropriate to how you feel about the question below. question: how do you feel about elementary students being addicted to technology?         </slidetext>
+      <slidetext slideid="5l3zgfdGBaD.5gEzXDQJozG" slidebank="false" type="slide">needed technology to complete this interactive lesson, you will need a computer with working internet. </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.66m4w7V7mwm" slidebank="false" type="slide">triggering phase</slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.5ZXSUgjfm7t" slidebank="false" type="slide">digital addiction during this lesson, students will be learning how to lessen digital addiction in elementary students. </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.5zhm7jJJWJk" slidebank="false" type="slide">  directions: before we get started with the lesson, please type a response in the box to the question below. you need to include at least three complete sentences in your answer. question: in your opinion, what are some of the conflicts that digital addiction will cause for a young student? assessment (essay) </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.69NfIzUfj6u" slidebank="false" type="slide">assessment debrief one of the biggest conflicts that digital addiction causes is mental health issues. </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.5jEMj0OhHrY" slidebank="false" type="slide">digital addiction this is a harmful dependence on digital media and digital devices. </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.6ahlZOYTGET" slidebank="false" type="slide">  directions: in the box below, type in a number that answers the question below. question: how many people in the world do you think use social media? assessment (how many)</slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.5iaSI8mYNOM" slidebank="false" type="slide">assessment debrief the amount of social media users across the world is 4.9 billion.  </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.68VV67MqQuS" slidebank="false" type="slide">common signs there are many signs that a child has a digital addiction. </slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.5ccQpqS47Hj" slidebank="false" type="slide">  assessment (short answer) directions: type your short answer in the box to the question below. question: how can educators limit screen time in the classroom?</slidetext>
+      <slidetext slideid="6FuJ6rvHRwU.6jpv0H2FFO7" slidebank="false" type="slide">assessment debrief educators can limit screen time by providing lessons that do not involve technology. </slidetext>
+      <slidetext slideid="5vNWQI0Il02.6Mxw1lwLJbS" slidebank="false" type="slide">exploration phase</slidetext>
+      <slidetext slideid="5vNWQI0Il02.6Tq8ekXYrsI" slidebank="false" type="slide">maladaptive behaviors children's addiction to digital devices compares to other maladaptive behaviors. </slidetext>
+      <slidetext slideid="5vNWQI0Il02.6SVg3gZUSxh" slidebank="false" type="slide">electronic policy educators should create an electronic policy poster with their students. </slidetext>
+      <slidetext slideid="5vNWQI0Il02.67V3RUwvdbv" slidebank="false" type="slide">thank you asking the teacher permission to use the laptop, being safe while using the laptop, not getting on non school friendly websites are some good options! continue continue continue continue continue continue assessment (text entry) directions: type your answer to the following question in the text field below. question: what is a rule that could go on the electronics policy poster for your classroom?    </slidetext>
+      <slidetext slideid="5vNWQI0Il02.5rGUHetI8uu" slidebank="false" type="slide">policy consequences when implementing a policy, you have to also implement consequences.  </slidetext>
+      <slidetext slideid="5vNWQI0Il02.6VeD40ykokg" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue assessment directions: answer the question below by dragging the correct answers to the checkmark and the wrong answers to the trash can. question: which of the following shapes below show signs of digital addiction?   all they talk about is electronics lose interest in activities not involving technology they lose sleep from staying up late playing video games every night    </slidetext>
+      <slidetext slideid="5vNWQI0Il02.5lGIEdK0Q3J" slidebank="false" type="slide">dasc recently, a digital addiction scale for children was created and is primarily used for young children. </slidetext>
+      <slidetext slideid="5vNWQI0Il02.6QgXVU47s2v" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue assessment (pick one) directions: click on the shape below that has the correct answer. question: why do you think digital addiction and social media would have a negative effect on a child's psychological well being?  the child is constantly comparing their lives to another  child's the child is constantly comparing their lives to another  child's the child is constantly comparing their lives to another  child's the child is making friends and having fun the child is making friends and having fun the child is making friends and having fun the child is learning information about hobbies they might want to try the child is learning information about hobbies they might want to try the child is learning information about hobbies they might want to try </slidetext>
+      <slidetext slideid="5vNWQI0Il02.5tQvf3LqWB6" slidebank="false" type="slide">assessment debrief children who are heavily involved in social media and technology have a risk of being victims of cyberbullying. </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.66SbaOZwYBc" slidebank="false" type="slide">integration phase</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.611Q4Zc5N1D" slidebank="false" type="slide">case study instructions please follow all the instructions on the following slides to complete the case study. </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5ebHk93we21" slidebank="false" type="slide">case study questions there will be three questions during this case study. it should take about 30 minutes to complete. </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5fWRm5Jws9O" slidebank="false" type="slide">characters during this case study, there will be two characters, abby and chloe.  hi! my name is abby. and i’m chloe!</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5XiTmwLfKbG" slidebank="false" type="slide">conversation #1  good morning chloe, i am having an issue with a student and need your help. nice to see you abby, what is going on with your student? my student has been sleeping during lessons, he will be on his laptop when he is not supposed to and when i tell him he needs to put his laptop away and be involved in the activity we are doing, he gets very angry.  that’s not good. have you asked him if he is getting any sleep at home? yes, he says he stays up late every night playing video games. i also asked if  he is allowed to be up late doing that and he says his grandma doesn’t care.   well that definitely explains why he is sleeping in class. what is he doing on his laptop when he is on it during classtime? he is usually playing math games which is great, but not when we are in the middle of a language arts lesson.   well let’s figure out some solutions that could fix this situation.</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.6PBoU1obUoZ" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue   take the laptop away and do not let the student ever use it in school again.  take the laptop away and do not let the student ever use it in school again.  take the laptop away and do not let the student ever use it in school again.  take the laptop away and do not let the student ever use it in school again.  take the laptop away and do not let the student ever use it in school again.  take the laptop away and do not let the student ever use it in school again. call the parents and tell them to take all electronics away from the student. call the parents and tell them to take all electronics away from the student. call the parents and tell them to take all electronics away from the student. call the parents and tell them to take all electronics away from the student. call the parents and tell them to take all electronics away from the student. call the parents and tell them to take all electronics away from the student. establish an “electronics policy” that is put in the classroom where it is always visible to students. establish an “electronics policy” that is put in the classroom where it is always visible to students. establish an “electronics policy” that is put in the classroom where it is always visible to students. establish an “electronics policy” that is put in the classroom where it is always visible to students. establish an “electronics policy” that is put in the classroom where it is always visible to students. establish an “electronics policy” that is put in the classroom where it is always visible to students. 								assessment directions: for this assessment, you will be answering the question below by clicking on the answer. question: what is a solution that abby can implement to try to reduce screen time when it is not an appropriate time?</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5ZVUCl68wsR" slidebank="false" type="slide">assessment debrief the correct answer to the assessment was: establish an “electronics policy” that is put in the classroom where it is always visible to students. </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.6E6NLYXEZzn" slidebank="false" type="slide">conversation #2  hey chloe, so i created a poster of my class’s “electronic policy” and the student did good for a few days, but now he is back to using his laptop when he is not supposed to.  great job on creating a policy! do the students have consequences if they do not follow the policy?  i haven’t explained any consequences but maybe i should..</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.6Z55lNCh7jN" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue assessment (drag-and-drop) directions: abby is now going to add consequences for when students are not abiding to the “electronics policy”. drag the correct answers to the poster.   student has to sit in hallway for the rest of the day student receives a verbal warning  student can never bring their laptop to school again student gets laptop taken away for remainder of the day and will have to use pencil and paper instead student can play on laptop as long as they want  student gets a phone call home  </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.6K4n1IhJQj1" slidebank="false" type="slide">assessment debrief the correct answers were: student receives a verbal warning, student gets laptop taken away for remainder of the day and will have to use pencil and paper instead, and student gets a phone call home. </slidetext>
+      <slidetext slideid="6I8e0HlzUTp.6fQJUShjz6V" slidebank="false" type="slide">conversation #3  hello chloe, ever since i implemented what the consequences would be for not following the policy, the student rarely gets on his laptop when he is not supposed to! that is wonderful news! is there anything else you are going to do regarding electronics in the classroom? yes, i want to limit the amount of time we use electronics for lessons because i want the students to be able to learn hands on and not just rely on a laptop. i think that is a smart idea. we have a lot of nice weather coming up so you could even try to get the students outside. let me know if you need my help!</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5VRD7M4cqrA" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  have students complete a worksheet have students complete a worksheet have students complete a worksheet have students complete a worksheet have students complete a worksheet have students complete a worksheet take the students outside for the lesson and provide hands on activities take the students outside for the lesson and provide hands on activities take the students outside for the lesson and provide hands on activities take the students outside for the lesson and provide hands on activities take the students outside for the lesson and provide hands on activities take the students outside for the lesson and provide hands on activities let the students watch a video about the water cycle and let them use their laptops anyway let the students watch a video about the water cycle and let them use their laptops anyway let the students watch a video about the water cycle and let them use their laptops anyway let the students watch a video about the water cycle and let them use their laptops anyway let the students watch a video about the water cycle and let them use their laptops anyway let the students watch a video about the water cycle and let them use their laptops anyway directions: read the question below and select which answer you think is correct. question: abby is trying to limit screen time in her classroom. her students are currently learning about the water cycle. how can she teach this lesson while avoiding screen time? assessment</slidetext>
+      <slidetext slideid="6I8e0HlzUTp.5xrtfqEDxaI" slidebank="false" type="slide">assessment debrief the correct answer for the previous assessment is “take the students outside for the lesson and provide hands on activities”. </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.5VaRLzgzXJq" slidebank="false" type="slide">resolution phase</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6odTawSHKBx" slidebank="false" type="slide">name input for quiz completion directions: please type your name in the box below so that you can get credit for completing this quiz.  </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6RvrgrkNRcC" slidebank="false" type="slide">quiz instructions follow the directions on each slide to answer each quiz question. </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6kHuIpilt0B" slidebank="false" type="slide">quiz expectations there are five total questions and should take you about 25 minutes. </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6bQVLztdXzH" slidebank="false" type="slide">criteria for success you must score at least an 80% to successfully pass this quiz and receive your certificate. </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.65NhuakNPzL" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  false false false false false false directions: read the question below and click on the correct answer. question: it is not possible for someone to have a digital addiction. true true true true true true</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.61z2fEgSxSs" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  silent reading time silent reading time silent reading time silent reading time silent reading time silent reading time educational games on the laptop educational games on the laptop educational games on the laptop educational games on the laptop educational games on the laptop educational games on the laptop setting a timer when students have free time on their laptop setting a timer when students have free time on their laptop setting a timer when students have free time on their laptop setting a timer when students have free time on their laptop setting a timer when students have free time on their laptop setting a timer when students have free time on their laptop taking the students outside for a lesson taking the students outside for a lesson taking the students outside for a lesson taking the students outside for a lesson taking the students outside for a lesson taking the students outside for a lesson letting students watch educational videos on youtube letting students watch educational videos on youtube letting students watch educational videos on youtube letting students watch educational videos on youtube letting students watch educational videos on youtube letting students watch educational videos on youtube calling the students parents and telling them to take away all of the students electronics until they’re in high school calling the students parents and telling them to take away all of the students electronics until they’re in high school calling the students parents and telling them to take away all of the students electronics until they’re in high school calling the students parents and telling them to take away all of the students electronics until they’re in high school calling the students parents and telling them to take away all of the students electronics until they’re in high school calling the students parents and telling them to take away all of the students electronics until they’re in high school directions: read the question below and select the correct answer(s). question: what are ways that a teacher can limit the amount of screen time in their classroom?</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.5vdftJAtkaS" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue   directions: read the question below and type your answer in the box. question: teachers should create an electronics ______ poster that they hang up in their classroom where it is visible to students.</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6j8k1YMn9ap" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  never allowing the student to bring their laptop to school again never allowing the student to bring their laptop to school again never allowing the student to bring their laptop to school again never allowing the student to bring their laptop to school again never allowing the student to bring their laptop to school again never allowing the student to bring their laptop to school again taking the laptop only for the remainder of the school day taking the laptop only for the remainder of the school day taking the laptop only for the remainder of the school day taking the laptop only for the remainder of the school day taking the laptop only for the remainder of the school day taking the laptop only for the remainder of the school day directions: read the question below and then click on the answer. question: which of the following should not be a consequence for breaking the electronics policy? verbal warning verbal warning verbal warning verbal warning verbal warning verbal warning phone call home phone call home phone call home phone call home phone call home phone call home</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.5apwWYSe3Ak" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  students can use the laptop whenever they need it students must get permission to use their laptop students can break their laptop students can get on non school friendly websites students can video chat with friends  directions: read the question below and drag the answer into the box. question: what is a rule that could go on your electronics policy poster?</slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.5g15nQ1i4E8" slidebank="false" type="slide">book recommendation internet addiction in children and adolescents by kimberly s. young </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.686kWqRUnPL" slidebank="false" type="slide">thank you thank you so much for participating in my interactive lesson! </slidetext>
+      <slidetext slideid="6Pi0SJ2xNuf.6a7CvOfUSG9" slidebank="false" type="slide">work cited 6 top tips for managing technology in the classroom. 2016 august 27. gradelink. https:// 	www.gradelink.com/managing-technology-in-the-classroom/ huffman, m. (2023 april 24). social media and mental health learning module.  	open educational resources. https://oercommons.org/courseware/lesson/103088 schulz van endert, t. (2021). addictive use of digital devices in young children: associations with 	delay discounting, self-control and academic performance. plos one, 16(6), 1-12. https://	eds-s-ebscohost-com.ezproxy.libraries.wright.edu/eds/detail/detail?vid=11&amp;sid=af9dea4f-	8e8f-4e1f-a21f-e32fa1052241%40redis&amp;bdata=jnnpdgu9zwrzlwxpdmu			 	%3d#an=151026435&amp;db=a9h</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.youtube.com/watch?v=qyMqljINR74" image="story_content/url.png" title="Digital Addiction Video" />
+      <resource url="https://www.youtube.com/watch?v=8e1ezeq3C9c" image="story_content/url.png" title="Ted Talk" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5l3zgfdGBaD.5hvrshDL70A" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hello everyone! My name is Maci Mutzner and today's interactive lesson is about Lessening Digital Addiction in Elementary Students. "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Let’s go ahead and get started!"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.6ozFsr99NjD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Be sure to pay attention and have fun with this interactive lesson."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.5xH5B8aHdU8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can use these arrows to move on to the next slide or to go back to a previous slide if needed."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.5aSHwDUICXy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="I will do my best to respond as quickly as I can but if the email is sent on a Saturday or Sunday, it may take me 24 hours to respond. Please put your name and class in the subject line."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.5ioQ3p7sJtL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There is no right or wrong answer for this assessment, please answer truthfully."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.5mMi1QKtE7N" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There is no right or wrong answer for this assessment, please answer truthfully."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5l3zgfdGBaD.5gEzXDQJozG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The technology required for this lesson is minimal. Please make sure you have a good working internet connection. This lesson can be completed on a Windows or Mac computer."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.5ZXSUgjfm7t" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In today's world, technology is all around us and it is constantly advancing. There are many great benefits, but we often forget there are also many negatives when it comes to technology, especially in younger ages (Huffman, 2023). Digital addiction is becoming more common amongst elementary students and this lesson will provide educators with information and tips on how they can lessen this addiction in their elementary age students."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.5zhm7jJJWJk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="There is no right or wrong answer, please answer truthfully.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.69NfIzUfj6u" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Social media companies use marketing tactics that are biologically addictive and release dopamine. Dopamine is "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="a compound present in the body as a neurotransmitter and a precursor of other substances including epinephrine. Dopamine can give a person a reward feeling, such as eating your favorite food or cuddling with a cute puppy "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#101518" Elevation="Normal" DisplayCase="AsIs" LinkColor="#101518" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Huffman, 2023). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Unfortunately, it can also be released with addictive activities such as drugs, alcohol, or gambling.  Social media causes young students to compare themselves and their lives to other people's lives, and it can also cause isolation and sleep decrease "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#101518" Elevation="Normal" DisplayCase="AsIs" LinkColor="#101518" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Huffman, 2023). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.5jEMj0OhHrY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The devices one might be addicted to are smartphones, computers, tablets, iPads, gaming systems such as an Xbox or PS5 as well as social media platforms such as TikTok, Snapchat, or Instagram "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Huffman, 2023). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.6ahlZOYTGET" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Please answer this question truthfully."&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.5iaSI8mYNOM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Students as young as eight years old are also using social media platforms. There has been a 17% increase amongst young children creating social media profiles in the past year "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Huffman, 2023). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.68VV67MqQuS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Common signs of digital addiction in children are: the child having trouble ending their screen time, loss of interest in other activities (only being motivated if it involves electronics, not wanting to play with toys or go outside), their topic of discussion is always about video games or electronics, problems socializing with other kids their age, and irritability, trouble sleeping, and even depression "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Huffman, 2023)."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" Other red flags are children sneaking screen time when it is time for bed, or lying about how long they have been using screen time."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.5ccQpqS47Hj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Please answer to the best of your ability." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6FuJ6rvHRwU.6jpv0H2FFO7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In certain instances in the classroom, technology has to be used. In situations where it is the educators choice, provide students with engaging and fun activities and lessons that do not have to involve technology "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016)."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" If there is a period for downtime for the students, give them options such as silent reading or hands on activities. Although there are many “educational” games that use technology, do not feel as though you have to present students with that option daily."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.6Tq8ekXYrsI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="These maladaptive behaviors are substance abuse and pathological gambling (Schulz van Endert, 2021). They compare because both include impulsive choices. There is not much known yet about the relationship between children's personality factors and digital addiction "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Schulz van Endert, 2021)."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.6SVg3gZUSxh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This poster will include rules for electronics and technology in the classroom. This poster must be placed in the room where students can see it and have access to it at all time ("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016). Make sure you refer back to the electronic policy whenever necessary."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.67V3RUwvdbv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please complete the assessment to the best of your ability. We will go over answers on the next slide."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.5rGUHetI8uu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Next to your policy poster, you also need to have consequences for if a student does not follow these rules "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016). It is important that the educator is stern with these rules in order for the student to take the policy seriously."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.6VeD40ykokg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please complete the assessment to the best of your ability. We will go over answers on the next slide."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.5lGIEdK0Q3J" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This scale measures to which degrees the use of smartphones, tablets, and computers negatively affect a child's educational, psychological, physical, and social well being "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="(Schulz van Endert, 2021). This scale still needs to be investigated in connection to personality factors in children. "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.6QgXVU47s2v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please complete the assessment to the best of your ability. We will go over answers on the next slide."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5vNWQI0Il02.5tQvf3LqWB6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Cyberbullying can cause emotional distress resulting from threatening, harassment, or humiliating communication between children online (Fritz, 2014). The more that children use electronics and social media, the more likely they are to become a victim to cyberbullies. Victims of cyberbullying usually report feeling depressed, anxious, isolated, and even suicidal (Fritz, 2014). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.611Q4Zc5N1D" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There is no time limit so take as much time as you need."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.5ebHk93we21" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Take your time and go back when necessary. "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.5fWRm5Jws9O" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The character Abby is a 4th grade teacher and Chloe is her boss/principal. "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.5ZVUCl68wsR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This can be done at anytime of the school year, but it is best to implement it the first week of school. Have the students help you come up with the rules and also explain to the students why these rules need to exist "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016). "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="You can make this poster fun and colorful and make sure it is hung up where all students can see it and refer back to."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.6E6NLYXEZzn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Abby: “Hey Chloe, so I created a poster of my class’s “Electronic Policy” and the student did good for a few days, but now he is back to using his laptop when he is not supposed to.” Chloe: “Great job on creating a policy! Do the students have consequences if they do not follow the policy?” Abby: “I haven’t explained any consequences but maybe I should..”"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.6Z55lNCh7jN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Carefully read the question and options and select which answer(s) you think is correct."&gt;
+        &lt;Style FontFamily="+major" FontSize="11" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.6K4n1IhJQj1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It is important that with any policy you are creating for your classroom, there is also consequences to breaking that policy and the students are aware of these consequences "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016)."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" Make sure these consequences are near where the policy poster is and are visible to students. It is crucial that you stick to these consequences or else the students will not take the policy serious and you will run into further issues."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.6fQJUShjz6V" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Abby: “Hello Chloe, ever since I implemented what the consequences would be for not following the policy, the student rarely gets on his laptop when he is not supposed to!” Chloe: “That is wonderful news! Is there anything else you are going to do regarding electronics in the classroom?” Abby: “Yes, I want to limit the amount of time we use electronics for lessons because I want the students to be able to learn hands on and not just rely on a laptop.” Chloe: “I think that is a smart idea. We have a lot of nice weather coming up so you could even try to get the students outside. Let me know if you need my help!”"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6I8e0HlzUTp.5xrtfqEDxaI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Limiting the amount of screentime in the classroom is a great way to try and lessen/avoid digital addiction "&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="("&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="6 Top Tips for Managing Technology in the Classroom"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", 2016)."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#303030" Elevation="Normal" DisplayCase="AsIs" LinkColor="#303030" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" Letting the students go outside and do hands on activities instead of being in front of a computer screen also always students to burn off some of their energy, and get a change of scenery."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="+major" FontSize="11" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.6odTawSHKBx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="You will be receiving a certificate upon successfully completing this quiz." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.6RvrgrkNRcC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This quiz is not timed, so take as much time as you need."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.6kHuIpilt0B" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It is okay if you take less or more than 25 minutes."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.6bQVLztdXzH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you do not receive at least an 80% on your first try, you will receive one more final try to successfully complete the quiz. If you fail that attempt as well, we will meet over a Zoom call to discuss how to move forward."&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.5g15nQ1i4E8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This is a great book option to learn more about digital addiction in children!"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6Pi0SJ2xNuf.686kWqRUnPL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you have any additional questions or information you would like to share, please feel free to email me. I hope you enjoy the rest of your weekend!"&gt;
+        &lt;Style FontFamily="Times New Roman" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Digital Addiction">Is a harmful dependence on digital media and devices such as smartphones, video games, and computers.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>

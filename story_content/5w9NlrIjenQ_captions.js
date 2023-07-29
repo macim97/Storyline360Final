@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.78.30680.0%0D%0A%0D%0A00:00:00.001%20--%3E%2000:00:05.600%0D%0AThe%20character%20Abby%20is%20a%204th%20grade%20teacher%20and%20Chloe%20is%20her%20boss/principal.%20%0D%0A%0D%0A"}')
